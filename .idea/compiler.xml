@@ -13,6 +13,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="alibaba" target="1.8" />
+      <module name="project-alibaba" target="1.8" />
       <module name="spring-cloud-client" target="1.8" />
       <module name="spring-cloud-common" target="1.8" />
       <module name="spring-cloud-server" target="1.8" />
