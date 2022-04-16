@@ -2,6 +2,7 @@
 target/
 
 # IDEA #
+.idea/
 *.iml
 
 # Eclipse #
