@@ -1,0 +1,3 @@
+com\alibaba\client\ClientApplication.class
+com\alibaba\client\service\IClientService.class
+com\alibaba\client\controller\ClientController.class

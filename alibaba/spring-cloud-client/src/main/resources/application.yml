@@ -1,0 +1,14 @@
+server:
+  port: 9003
+  servlet:
+    context-path: /client
+
+spring:
+  application:
+    name: alibaba-cloud-client
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+    compatibility-verifier:
+      enabled: false

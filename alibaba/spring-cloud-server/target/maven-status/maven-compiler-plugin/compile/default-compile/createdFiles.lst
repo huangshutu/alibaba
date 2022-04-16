@@ -1,0 +1,5 @@
+com\alibaba\server\controller\ServerController.class
+com\alibaba\server\entity\User.class
+com\alibaba\server\service\IServerService.class
+com\alibaba\server\ServerApplication.class
+com\alibaba\server\service\impl\ServerServiceImpl.class
