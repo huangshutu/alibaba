@@ -10,4 +10,4 @@
 /ZeppelinRemoteNotebooks/
 *.iml
 .idea
-/*.xml
+/vcs.xml
