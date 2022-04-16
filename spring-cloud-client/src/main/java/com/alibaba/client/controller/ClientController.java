@@ -20,8 +20,6 @@ public class ClientController {
     @Autowired
     private IClientService clientService;
 
-    //测试
-
     @PostMapping("/query")
     public String queryClient() {
             return clientService.queryClient();
