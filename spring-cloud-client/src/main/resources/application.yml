@@ -1,7 +1,5 @@
 server:
   port: 9002
-  servlet:
-    context-path: /client
 
 spring:
   application:
@@ -9,9 +7,7 @@ spring:
   cloud:
     nacos:
       discovery:
-        server-addr: 127.0.0.1:8848
-    compatibility-verifier:
-      enabled: false
+        server-addr: 192.168.1.4:8848
 #消费者将要去访问的微服务名称（注册成功进nacos的微服务提供者）
 server-url:
-  nacos-user-service: http://alibaba-cloud-server/server
+  nacos-user-service: http://alibaba-cloud-server

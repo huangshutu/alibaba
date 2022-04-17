@@ -10,6 +10,7 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
  * @date: 2022/4/13 22:18
  */
 @SpringBootApplication
+@EnableDiscoveryClient
 public class ServerApplication {
     public static void main(String[] args) {
         SpringApplication.run(ServerApplication.class, args);
