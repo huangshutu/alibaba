@@ -1,6 +1,6 @@
 # Maven #
-target/
-classes/
+/target
+
 
 # IDEA #
 .idea/
