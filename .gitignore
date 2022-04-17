@@ -3,3 +3,4 @@
 
 # IDEA #
 .idea/
+/spring-cloud-common/target/
