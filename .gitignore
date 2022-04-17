@@ -3,4 +3,5 @@ target/
 *target
 
 # IDEA #
+.idea/
 *.iml
