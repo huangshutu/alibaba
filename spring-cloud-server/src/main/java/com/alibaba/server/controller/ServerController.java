@@ -20,7 +20,7 @@ public class ServerController {
     @Autowired
     private IServerService serverService;
 
-    @PostMapping("/server/query")
+    @PostMapping(value = "/server/query")
     public String queryServer() {
         return serverService.queryServer();
     }
