@@ -14,7 +14,7 @@ spring:
   cloud:
     nacos:
       discovery:
-        server-addr: 127.0.0.1:88480
+        server-addr: 127.0.0.1:8848
 
 #打开全部监控端点
 maagement:
