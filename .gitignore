@@ -1,6 +1,6 @@
 # Maven #
-target
+target/
 
 # IDEA #
 .idea/
-spring-cloud-common/target
+spring-cloud-common/target/
