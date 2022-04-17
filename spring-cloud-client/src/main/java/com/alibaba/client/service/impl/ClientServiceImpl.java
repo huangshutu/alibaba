@@ -1,8 +1,9 @@
 package com.alibaba.client.service.impl;
 
 import com.alibaba.client.service.IClientService;
-import com.alibaba.common.service.IFeignService;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
+import org.springframework.web.client.RestTemplate;
 
 import javax.annotation.Resource;
 
@@ -14,11 +15,15 @@ import javax.annotation.Resource;
 @Service
 public class ClientServiceImpl implements IClientService {
 
+
     @Resource
-    private IFeignService feignService;
+    private RestTemplate restTemplate;
+
+    @Value("${server-url.nacos-user-service}")
+    private String serverUrl;
 
     @Override
     public String queryClient(){
-       return feignService.queryServer();
+        return restTemplate.getForObject(serverUrl+"/serverApi/server/query",String.class);
     }
 }

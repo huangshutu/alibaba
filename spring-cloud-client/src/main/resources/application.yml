@@ -12,3 +12,6 @@ spring:
         server-addr: 127.0.0.1:8848
     compatibility-verifier:
       enabled: false
+#消费者将要去访问的微服务名称（注册成功进nacos的微服务提供者）
+server-url:
+  nacos-user-service: http://alibaba-cloud-server/server
