@@ -3,4 +3,9 @@ target/
 
 # IDEA #
 .idea/
-spring-cloud-common/target/
+*.iml
+
+# Eclipse #
+.settings/
+.classpath
+.project

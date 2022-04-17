@@ -6,15 +6,16 @@ server:
 spring:
   application:
     name: alibaba-cloud-server
-  datasource:
-    url: jdbc:mysql://localhost:3306/alibaba?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=GMT%2B8
-    username: root
-    password: root
-    driver-class-name: com.mysql.cj.jdbc.Driver
   cloud:
     nacos:
       discovery:
         server-addr: 127.0.0.1:8848
+  datasource:
+    url: jdbc:mysql://localhost:3306/alibaba?allowPublicKeyRetrieval=true&useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=GMT%2B8
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
 
 #打开全部监控端点
 maagement:
