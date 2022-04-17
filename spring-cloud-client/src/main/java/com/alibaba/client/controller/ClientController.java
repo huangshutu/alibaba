@@ -2,13 +2,10 @@ package com.alibaba.client.controller;
 
 import com.alibaba.client.service.IClientService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Value;
+import org.springframework.cloud.client.loadbalancer.LoadBalanced;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import org.springframework.web.client.RestTemplate;
-
-;import javax.annotation.Resource;
 
 /**
  * @description:

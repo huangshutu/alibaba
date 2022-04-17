@@ -1,6 +1,5 @@
 server:
   port: 9001
-
 spring:
   application:
     name: alibaba-cloud-server
@@ -13,7 +12,6 @@ spring:
     username: root
     password: root
     driver-class-name: com.mysql.cj.jdbc.Driver
-
 #打开全部监控端点
 maagement:
   endpoints:
