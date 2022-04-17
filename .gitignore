@@ -1,5 +1,5 @@
 # Maven #
-spring-cloud-server/target
+target/
 
 # IDEA #
 .idea/
