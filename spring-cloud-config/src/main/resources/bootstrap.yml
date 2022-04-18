@@ -1,3 +1,5 @@
+server:
+  port: 9003
 spring:
   application:
     name: alibaba-cloud-config
@@ -5,3 +7,7 @@ spring:
     nacos:
       discovery:
         server-addr: 192.168.1.3:8848 #nacos服务注册中心地址
+      config:
+        file-extension: yaml #指定yaml格式的配置
+        group: DEV_GROUP
+        namespace: 0b5b613f-1b70-47e4-9f46-b1dfcdf8d6ea
