@@ -1,3 +1,5 @@
+com\alibaba\client\config\ApplicationContextConfig.class
 com\alibaba\client\ClientApplication.class
 com\alibaba\client\service\IClientService.class
+com\alibaba\client\service\impl\ClientServiceImpl.class
 com\alibaba\client\controller\ClientController.class

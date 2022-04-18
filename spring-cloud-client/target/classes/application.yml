@@ -1,7 +1,5 @@
 server:
-  port: 9003
-  servlet:
-    context-path: /client
+  port: 9002
 
 spring:
   application:
@@ -9,6 +7,4 @@ spring:
   cloud:
     nacos:
       discovery:
-        server-addr: 127.0.0.1:8848
-    compatibility-verifier:
-      enabled: false
+        server-addr: 192.168.1.4:8848

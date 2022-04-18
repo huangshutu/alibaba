@@ -13,6 +13,7 @@
         <module>spring-cloud-server</module>
         <module>spring-cloud-client</module>
         <module>spring-cloud-common</module>
+        <module>spring-cloud-config</module>
     </modules>
 
     <properties>
