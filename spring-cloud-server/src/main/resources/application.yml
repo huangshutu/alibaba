@@ -1,14 +1,24 @@
 server:
-  port: 9004
+  port: 9003
 spring:
   application:
     name: alibaba-cloud-server
+  main:
+    allow-circular-references: true
   cloud:
     nacos:
       discovery:
+        #Nacos服务注册中心地址
         server-addr: localhost:8848
-  datasource:
-    url: jdbc:mysql://localhost:3306/alibaba?allowPublicKeyRetrieval=true&useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=GMT%2B8
-    username: root
-    password: root
-    driver-class-name: com.mysql.cj.jdbc.Driver
+    sentinel:
+      transport:
+        #配置Sentinel Dashboard地址
+        dashboard: localhost:8080
+        #默认8719端口，假如被占用会自动从8719开始一依次+1扫描，知道找到未占用的端口
+        port: 8719
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'

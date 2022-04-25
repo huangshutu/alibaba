@@ -1,4 +1,4 @@
-package com.alibaba.server.controller;
+package com.alibaba.sentinel.controller;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -7,11 +7,11 @@ import org.springframework.web.bind.annotation.RestController;
 /**
  * @description:
  * @author: shutu
- * @date: 2022/4/14 0:00
+ * @date: 2022/4/23 23:16
  */
 @RestController
 @Slf4j
-public class ServerController {
+public class SentinelController {
 
     @GetMapping("/query")
     public String query(){
