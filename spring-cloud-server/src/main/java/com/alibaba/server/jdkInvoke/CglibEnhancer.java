@@ -1,4 +1,4 @@
-package com.example.order.jdkInvoke;
+package com.alibaba.server.jdkInvoke;
 
 import org.springframework.cglib.proxy.MethodInterceptor;
 import org.springframework.cglib.proxy.MethodProxy;

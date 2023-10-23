@@ -1,4 +1,4 @@
-package com.example.order.aop;
+package com.alibaba.server.aop;
 
 import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.Signature;
@@ -23,7 +23,7 @@ import java.lang.reflect.Method;
 @Component
 @Aspect
 public class OrderAop {
-    @Pointcut("@annotation(com.example.order.aop.AopInterceptor)")
+    @Pointcut("@annotation(com.alibaba.server.aop.AopInterceptor)")
     public void pointcut(){}
 
     @Before("pointcut()")

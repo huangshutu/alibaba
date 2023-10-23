@@ -1,4 +1,4 @@
-package com.example.order.listener;
+package com.alibaba.server.listener;
 
 import org.springframework.context.ApplicationListener;
 import org.springframework.stereotype.Component;

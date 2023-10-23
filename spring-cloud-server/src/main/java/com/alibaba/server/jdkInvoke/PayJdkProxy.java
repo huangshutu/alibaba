@@ -1,4 +1,4 @@
-package com.example.order.jdkInvoke;
+package com.alibaba.server.jdkInvoke;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.InvocationTargetException;
